@@ -46,6 +46,8 @@ const component = (props:Props) => {
     );
 }
 
+export default component;
+
 ```
 
 ## Styles
