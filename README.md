@@ -51,19 +51,13 @@ const component = (props:Props) => {
 ## Styles
 ```jsx
 // @flow
-import React, { Component } from 'react';
+import { StyleSheet } from 'react-native';
 
-type Props = {
+const styles = StyleSheet.create({
+  container: {
+  },
+});
 
-};
-
-const component = (props:Props) => {
-	const { value } = props;
-  
-    return (
-      <View style={styles.container}>
-      </View>
-    );
-}
+export default styles;
 
 ```
